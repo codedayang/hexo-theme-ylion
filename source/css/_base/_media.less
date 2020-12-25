@@ -33,7 +33,16 @@ html{ font-size:777.08%;}
   #wrap #footer .social{display: inline-block;&>a{font-size: .4rem;}}
 }
 @media screen and (max-width: 639px) {
-  #main > .article-excerpt-wrap .article-img{display: none}
+  //#main > .article-excerpt-wrap .article-img{display: none}
+  #main>.article-excerpt-wrap .article-img {
+    position: unset !important;
+    top: unset !important;
+    left: unset !important;
+    width: 100% !important;
+    height: 2.6rem !important;
+    margin-bottom: 0.2rem !important;
+
+  }
   #wrap #main > .article-excerpt-wrap .article-excerpt{width: 100%;margin-left: 0}
   #wrap #main > .article-excerpt-wrap .article-content{height: 1.5rem}
   #donate-wrap{overflow: auto!important;}
@@ -46,7 +55,16 @@ html{ font-size:777.08%;}
 }
 @media screen and (max-width: 819px){
   /*excerpt*/
-  #main > .article-excerpt-wrap .article-img{left:-9999px!important;}
+  //#main > .article-excerpt-wrap .article-img{left:-9999px!important;}
+  #main>.article-excerpt-wrap .article-img {
+    position: unset !important;
+    top: unset !important;
+    left: unset !important;
+    width: 100% !important;
+    height: 2.6rem !important;
+    margin-bottom: 0.2rem !important;
+
+  }
   #wrap #main > .article-excerpt-wrap .article-excerpt{width: 100%;margin-left: 0}
   #wrap #main > .article-excerpt-wrap .article-content{height: 1.5rem}
   #wrap #main > .article-excerpt-wrap .article-meta{display: none}
@@ -57,7 +75,7 @@ html{ font-size:777.08%;}
     padding: 0;
   }
   #wrap #container{
-    padding:  0;
+    padding-top: 6px;
   }
   #wrap #site-meta{
     float: none;
